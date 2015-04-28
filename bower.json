@@ -1,0 +1,15 @@
+{
+    "name": "Fallback-Base",
+    "version": "0.1.0",
+    "homepage": "https://github.com/Fall-Back/Fallback-Base",
+    "authors": [
+        "Andy Kirk <andy.kirk@gridlight-design.co.uk>"
+    ],
+    "description": "Base settings, tools and styles common to Fallback patterns.",
+    "main": "_fallback-base.scss",
+    "keywords": [
+        "fallback",
+        "css",
+    ],
+    "license": "Apache"
+}
