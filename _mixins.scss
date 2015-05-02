@@ -1,4 +1,4 @@
-@mixin fallback-rem($property, $values) {
+@mixin fallback-rem($property, $values, $important: false) {
     $pxValues: unquote("");
     $remValues: unquote("");
     @each $value in $values {
@@ -13,6 +13,10 @@
             $remValues: append($remValues, ($value / $fallback--base-font-size) * 1rem);
         }
     }
+	
+	@if $important == true {
+	}
+	
     #{$property}:$pxValues;
     #{$property}:$remValues;
 }
