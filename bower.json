@@ -1,11 +1,11 @@
 {
-    "name": "FallBack-Base",
+    "name": "Fall-Back-Base",
     "version": "0.1.0",
-    "homepage": "https://github.com/Fall-Back/FallBack-Base",
+    "homepage": "https://github.com/Fall-Back/Fall-Back-Base",
     "authors": [
         "Andy Kirk <andy.kirk@gridlight-design.co.uk>"
     ],
-    "description": "Base settings, tools and styles common to FallBack patterns.",
+    "description": "Base settings, tools and styles common to Fall-Back patterns.",
     "main": "_fallback-base.scss",
     "ignore":[],
     "keywords": [
