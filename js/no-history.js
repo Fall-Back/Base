@@ -12,6 +12,7 @@
 if (document.getElementsByClassName) {
     window.onload = (function(onload) {
         return function(event) {
+            onload && onload(event);
             
             // Plain JS version:
             var links = document.getElementsByClassName('js-no-history');
