@@ -1,3 +1,6 @@
-$fallback--base-font-size: 16px !default;
+$fallback--base-font-size: 14px !default;
+$fallback--base-line-height: 20px !default; // 1.25
+
+$fallback--base-em-ratio: $fallback--base-line-height / $fallback--base-font-size;
 
 $fallback--base-ui-color: #999f9f !default;
