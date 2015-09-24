@@ -1,0 +1,90 @@
+// Normalise, Sanitise, A bit of Reset, Scut and Inuit, plus some other opinionated styless.
+
+/*
+    Key:
+    NX = Normalise reference
+    IX = Inuit reference
+    S  = Sanitize
+    Sc = Scut
+    
+*/
+
+/** INUIT
+ * High-, page-level styling.
+ *
+ * I1. Set the default `font-size` and `line-height` for the entire project,
+ *    sourced from our default variables. The `font-size` is calculated to exist
+ *    in ems, the `line-height` is calculated to exist unitlessly.
+ * I2. Force scrollbars to always be visible to prevent awkward ‘jumps’ when
+ *    navigating between pages that do/do not have enough content to produce
+ *    scrollbars naturally.
+ * I3. Ensure the page always fills at least the entire height of the viewport.
+ * I4. Prevent certain mobile browsers from automatically zooming fonts.
+ * I5. Fonts on OSX will look more consistent with other systems that do not
+ *    render text using sub-pixel anti-aliasing.
+ */
+ 
+/** NORMALISE
+ * N1. Set default font family to sans-serif.
+ * N2. Prevent iOS and IE text size adjust after device orientation change,
+ *    without disabling user zoom.
+ */
+html {
+    //font-size: ($inuit-base-font-size / 16px) * 1em; /* [I1] */
+    //line-height: $inuit-base-line-height / $inuit-base-font-size; /* [I1] */
+    background-color: $fallback--base-background-color; /* I S */
+    color: $fallback--base-text-color; /* I S */
+    
+    overflow-y: scroll; /* [I2] S */
+    //min-height: 100%; /* [I3] */
+    
+     
+     
+    box-sizing: border-box;
+    
+    
+    
+    font-family: sans-serif; /* N1 */
+    
+    -webkit-text-size-adjust: 100%; /* [I4] N2 S */
+        -ms-text-size-adjust: 100%; /* [I4] N2 */
+    -moz-osx-font-smoothing: grayscale; /* [I5] */
+     -webkit-font-smoothing: antialiased; /* [I5] */
+     
+    text-rendering: optimizeLegibility; /* S */
+     
+    height: 100%;
+}
+
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    -webkit-font-smoothing: inherit; /* Sc */
+}
+
+
+
+body {
+    line-height: $fallback--base-line-height;
+
+    
+    height: 100%;
+}
+
+
+
+
+html,
+body,
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+dl, dd, ol, ul,
+form, fieldset, legend,
+figure,
+table, th, td, caption,
+hr {
+    margin:  0;
+    padding: 0;
+}
