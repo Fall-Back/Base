@@ -1,5 +1,7 @@
 js/*.min.js
 
+
 cleanse.css
 cleanse.scss
+*.html
 *.css.map

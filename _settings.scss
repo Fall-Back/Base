@@ -4,7 +4,7 @@ $fallback--base-font-size: 14px !default;
 $fallback--base-line-height: 20px !default; // 1.25
 
 $fallback--base-em-ratio: $fallback--base-line-height / $fallback--base-font-size;
-
+$fallback--base-rem-space-unit: $fallback--base-line-height / 16px * 1rem;
 
 $fallback--base-font-family: sans-serif !default;
 
