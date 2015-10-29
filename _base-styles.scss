@@ -1,12 +1,7 @@
-@if $fallback--base-include-cleanse-css {
-    @import 'cleanse-css/cleanse.scss';
-} @else {
-    // Just the bare essentials to make the other patterns function properly:
-    html,
-    body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-    }
+// Just the bare essentials to make the other patterns function properly:
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
-
