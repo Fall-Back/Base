@@ -2,7 +2,8 @@
     Adds the Opera Mini class name and provides tweaks for some of the odd Opera Mini behaviour.
     I've not managed to disable JS on Opera Mini, so I guess this is safe.
 */
-var isOperaMini  = (navigator.userAgent.indexOf('Opera Mini') > -1);
+var isOperaMini  = (navigator.userAgent.indexOf('Opera Mini') > -1
+                 || navigator.userAgent.indexOf('OPiOS') > -1);
 /*var isOperaMini8 = (navigator.userAgent.indexOf('Opera Mini/8') > -1);*/
 if (isOperaMini) {
     var root = document.documentElement;
