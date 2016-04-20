@@ -1,5 +1,6 @@
 js/*.min.js
 
+icons.scss
 *.css.map
 
 media/
