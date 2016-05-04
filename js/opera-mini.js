@@ -15,7 +15,8 @@ if (isOperaMini) {
     }*/
     
     /* Add input size attribute for Opera Mini so that the input can collapse */
-    window.onload = (function(onload) {
+    /* This is no longer needed due to revised CSS in search form 0.6, but keep for reference */
+    /*window.onload = (function(onload) {
         return function(event) {
             onload && onload(event);
 
@@ -25,5 +26,5 @@ if (isOperaMini) {
                 search_fields[i].setAttribute("size", "1");
             }
         }
-    }(window.onload));
+    }(window.onload));*/
 }
