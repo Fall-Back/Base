@@ -8,9 +8,9 @@
     height: 1.71428571429em;*/
     
     /* No idea why, exactly, but this seems to be the best position, we long as we ... */
-    vertical-align: super;
+    //vertical-align: super;
     /* ... prevent the icon affecting line-height: */
-    margin: -0.5em 0;
+    //margin: -0.5em 0;
     /*
     -webkit-transform: scale(0.666);
     -moz-transform: scale(0.666);
@@ -40,3 +40,15 @@ _:-o-prefocus, :root .icon {
     height: 1.14285714286em;
     transform: none; /* [1] *
 }*/
+
+.icon-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
