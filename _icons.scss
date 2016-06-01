@@ -1,3 +1,30 @@
+/*
+
+
+    <!-- At the top of each page: -->
+    <svg xmlns="http://www.w3.org/2000/svg" display="none">
+        <symbol id="icon-triangle-down" viewBox="0 0 12 16">
+            <path d="M1,6h10l-5,5L1,6z"></path>
+        </symbol>
+        <symbol id="icon-cross" viewBox="0 0 16 16">
+            <path d="M15.5,2L14,0.5l-6,6l-6-6L0.5,2l6,6l-6,6L2,15.5l6-6l6,6l1.5-1.5l-6-6L15.5,2z"></path>
+        </symbol>
+        <symbol id="icon-menu" viewBox="0 0 16 16">
+            <rect x="0" width="16" height="3"/>
+            <rect x="0" y="6" width="16" height="3"/>
+            <rect y="12" width="16" height="3"/>
+        </symbol>
+        <!-- Other <symbol>s... -->
+    </svg>
+    
+    
+    <!-- Where it's needed: -->
+    <svg width="0" height="0" class="icon  icon--narrow" aria-label="About Us Submenu"><use xlink:href="#icon-triangle-down"></use></svg>
+    <!-- Note the aria-label can be removed if equivelent text is already present or the icon is visual only -->
+
+*/
+
+
 .icon {
     fill: currentColor;
 
@@ -27,7 +54,11 @@
 _:-o-prefocus, :root .icon {
     vertical-align: middle;
 }
-
+/*
+.icon symbol {
+    width: 1.14285714286em;
+    height: 1.14285714286em;
+}*/
 
 /*
     No transform support for Opera Mini, so hack it back to 16px with ems.
@@ -46,9 +77,9 @@ _:-o-prefocus, :root .icon {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+       -ms-flex-align: center;
+          align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+       -ms-flex-pack: center;
+     justify-content: center;
 }
