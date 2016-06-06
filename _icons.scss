@@ -33,8 +33,11 @@
 
 */
 
-
+/*
+    1. Override display attribute.
+*/
 .icon {
+    display: inline; /* [1] */
     fill: currentColor;
 
     width: 1.14285714286em;
