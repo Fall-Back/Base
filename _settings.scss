@@ -14,6 +14,10 @@ $fallback--base-rem-1px: 1px / 16px * 1rem;
 //$fallback--base-rem-1px: 0.0625rem;
 
 $fallback--base-font-family: sans-serif !default;
+// Consider:
+//$fallback--base-font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif !default;
+// https://bitsofco.de/the-new-system-font-stack/ https://github.com/necolas/normalize.css/issues/665
+
 
 $fallback--base-ui-color: #2F4F4F !default; // teal, #008080, rgb(0,128,128)
 //$fallback--base-ui-color: #663399 !default; //rebeccapurple #663399 rgb(102,51,153)
