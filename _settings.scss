@@ -21,9 +21,9 @@ $fallback--base-font-family: sans-serif !default;
 // https://bitsofco.de/the-new-system-font-stack/ https://github.com/necolas/normalize.css/issues/665
 
 
-$fallback--base-ui-color: #FF8C00 !default; // darkorange #FF8C00 rgb(255,140,0)
+//$fallback--base-ui-color: #FF8C00 !default; // darkorange #FF8C00 rgb(255,140,0)
 //$fallback--base-ui-color: #2F4F4F !default; // teal, #008080, rgb(0,128,128)
-//$fallback--base-ui-color: #663399 !default; //rebeccapurple #663399 rgb(102,51,153)
+$fallback--base-ui-color: #663399 !default; //rebeccapurple #663399 rgb(102,51,153)
 
 $fallback--base-background-color: #fff !default;
 $fallback--base-text-color: #333 !default;
