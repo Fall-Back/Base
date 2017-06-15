@@ -43,3 +43,5 @@ That leaves the _icons.scss_ file and the JS files.
 These can probably be put into their own repo's, but that does mean I'll ne _increasing_ the number of dependancies, so I'll need to think carefully about that.
 
 Possibly rename this to 'shared'?
+
+I want to make StartCSS completely independant. This seems doable, and having a 'shared' repo would be something other patterns can include.
