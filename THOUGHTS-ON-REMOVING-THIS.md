@@ -41,3 +41,5 @@ _base_styles.scss_ isn't really worth it. So little in there and it can be handl
 That leaves the _icons.scss_ file and the JS files. 
 
 These can probably be put into their own repo's, but that does mean I'll ne _increasing_ the number of dependancies, so I'll need to think carefully about that.
+
+Possibly rename this to 'shared'?
