@@ -18,9 +18,9 @@ Con's
 Reasons for it's existance
 --------------------------
 
-For clarity - here's my thought process on why I had this in the frist place:
+For clarity - here's my thought process on why I had this in the first place:
 
-Originally, each FallBAck pattern was _meant_ to be self-contained; usable in any project without dependancies.
+Originally, each FallBack pattern was _meant_ to be self-contained; usable in any project without dependancies.
 It remains questionable if this was a fools errand in the first place, but the _idea_ was sound.
 
 Then, it became obvious I would be duplicating some functions, styles and JS etc., so this Base repository was set up to house those things.
