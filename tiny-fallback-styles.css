@@ -1,4 +1,5 @@
-/*Tiny fallback styles:*/
+/* Tiny fallback styles */
+/* (https://github.com/Fall-Back/Base/edit/master/tiny-fallback-styles.css) */
 body{padding:1em;margin:0 auto;max-width: 50em;}
 img{max-width:100%;-ms-interpolation-mode: bicubic;}
 [hidden]{display:none;}
