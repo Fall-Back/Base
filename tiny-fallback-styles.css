@@ -1,3 +1,6 @@
+/* Consider: FOUC font match fallback */
+/* Match your final body webfont with this tool: https://meowni.ca/font-style-matcher/ */
+
 /* Tiny fallback styles */
 /* (https://github.com/Fall-Back/Base/edit/master/tiny-fallback-styles.css) */
 body{padding:1em;margin:0 auto;max-width: 50em;}
